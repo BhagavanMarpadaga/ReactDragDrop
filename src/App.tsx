@@ -51,7 +51,7 @@ function App() {
       >
         <div className="section section1">
           <h3 style={{textAlign:'center'}}>Frontend</h3>
-        <DropArea index ={0} section={"section2"} handleDrop={handleDrop} isFullHeight={list.section1.length==0?true:false}/>
+        <DropArea index ={0} section={"section1"} handleDrop={handleDrop} isFullHeight={list.section1.length==0?true:false}/>
           {list &&
             list.section1.map((card:any,index:number) => {
               return (
