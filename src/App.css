@@ -1,0 +1,9 @@
+.app{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+section{
+  width: 33% !important;
+  display: flex;
+  align-items: center;
+}
